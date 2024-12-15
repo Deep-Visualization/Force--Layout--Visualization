@@ -1,0 +1,27 @@
+
+body {
+    font-family: sans-serif;
+    background-color: white;
+    color: rgb(123, 13, 105); /* Set default text color to purple */
+}
+
+.row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    color: rgb(151, 55, 151);
+}
+
+.col {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: purple;
+}
+
+.headInfo {
+    width: 40%;
+    color: purple;
+}
